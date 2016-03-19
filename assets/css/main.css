@@ -2819,7 +2819,7 @@
 		top: 0;
 		width: 100%;
 		background: #fff;
-		background: rgba(255, 255, 255, 0.95);
+		background: #4F6A7C;;
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -2836,6 +2836,7 @@
 		height: 3em;
 		line-height: 3em;
 		letter-spacing: -1px;
+		color: #15E6CD;
 	}
 
 		#logo a {
@@ -3004,6 +3005,7 @@
 	color: inherit;
 	display: block;
 	padding: 0.15em 1em;
+	text-decoration: none;
 }
 
 .dropotron li:first-child > a, .dropotron li:first-child > span {
@@ -3580,6 +3582,7 @@
 
 			#nav {
 				display: none;
+				visibility: hidden;
 			}
 
 		/* Footer */
