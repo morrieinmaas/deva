@@ -2862,7 +2862,7 @@
 				border: 0;
 			}
 
-		#header nav {
+		#nav {
 			height: inherit;
 			line-height: inherit;
 			position: absolute;
@@ -2871,22 +2871,22 @@
 			vertical-align: middle;
 		}
 
-			#header nav > ul {
+			#nav ul {
 				list-style: none;
 				margin: 0;
 				padding-left: 0;
 			}
 
-				#header nav > ul > li {
+				#nav ul li {
 					display: inline-block;
 					padding-left: 0;
 				}
 
-					#header nav > ul > li > ul {
+					#nav ul li ul {
 						display: none;
 					}
 
-					#header nav > ul > li a {
+					#nav ul li a {
 						display: inline-block;
 						height: 2em;
 						line-height: 1.95em;
@@ -2894,27 +2894,27 @@
 						border-radius: 6px;
 					}
 
-					#header nav > ul > li a:not(.button) {
+					#nav ul li a:not(.button) {
 						color: #fff;
 						display: inline-block;
 						text-decoration: none;
 						border: 0;
 					}
 
-						#header nav > ul > li a:not(.button).icon:before {
+						# nav ul li a:not(.button).icon:before {
 							color: #999;
 							margin-right: 0.5em;
 						}
 
-					#header nav > ul > li:first-child {
+					#nav ul li:first-child {
 						margin-left: 0;
 					}
 
-					#header nav > ul > li.active a:not(.button) {
+					#nav ul li.active a:not(.button) {
 						background-color: rgba(153, 153, 153, 0.25);
 					}
 
-					#header nav > ul > li .button {
+					#header nav ul li .button {
 						margin: 0 0 0 0.5em;
 						position: relative;
 					}
