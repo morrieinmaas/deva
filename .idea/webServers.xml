@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ebf6ab29-af66-4136-b0d5-04cc1b29472f" name="divadivine" url="http://ftp.devadivine.com">
+        <fileTransfer host="ftp.devadivine.com" port="21" rootFolder="/public_html" password="dfc7dfc5dfc4dfc1dfcfdfd3df99df9bdf9edf9bdf9fdf93" username="mm@devadivine.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
