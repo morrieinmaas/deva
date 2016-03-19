@@ -13,44 +13,6 @@
 		margin-bottom: 0;
 	}
 
-/* Header */
-
-	#header nav > ul > li a {
-		color: #fff;
-		display: inline-block;
-		text-decoration: none;
-		border: 0;
-	}
-
-		#header nav > ul > li a.icon:before {
-			color: #fff;
-			margin-right: 0.5em;
-		}
-
-	#header.alt {
-		color: #fff;
-	}
-
-		#header.alt nav > ul > li a:not(.button).icon:before {
-			color: rgba(255, 255, 255, 0.75);
-		}
-
-		#header.alt nav > ul > li.active a:not(.button) {
-			background-color: rgba(255, 255, 255, 0.2);
-		}
-
-	.dropotron {
-		border: solid 1px #e5e5e5;
-	}
-
-		.dropotron.level-0 {
-			margin-top: 0;
-		}
-
-			.dropotron.level-0:before {
-				display: none;
-			}
-
 /* Form */
 
 	form input[type="text"],
