@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="divadivine" />
+  <component name="PublishConfigData" serverName="devadivine.com" uploadOnCheckin="67963ce0-3624-4b12-abcb-edca44b5727f">
+    <serverData>
+      <paths name="devadivine.com">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="devadivine.com" />
+  </component>
 </project>
