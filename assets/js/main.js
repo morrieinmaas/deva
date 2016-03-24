@@ -209,14 +209,14 @@
 		// Navigation Button.
 		$(
 			'<div id="navButton">' +
-			'<a href="#navPanel" class="toggle"></a>' +
+			'<a href="#nav" class="toggle"></a>' +
 			'</div>'
 		)
 			.appendTo($body);
 
 		// Navigation Panel.
 		$(
-			'<div id="navPanel">' +
+			'<div id="nav">' +
 			'<nav>' +
 			$('#nav').navList() +
 			'</nav>' +
@@ -231,12 +231,12 @@
 				resetForms: true,
 				side: 'left',
 				target: $body,
-				visibleClass: 'navPanel-visible'
+				visibleClass: 'nav-visible'
 			});
 
-		// Fix: Remove navPanel transitions on WP<10 (poor/buggy performance).
+		// Fix: Remove nav transitions on WP<10 (poor/buggy performance).
 		if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
-			$('#navButton, #navPanel, #page-wrapper')
+			$('#navButton, #nav, #page-wrapper')
 				.css('transition', 'none');
 
 		// Events.

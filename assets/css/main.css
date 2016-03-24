@@ -3425,7 +3425,7 @@
 
 /* Narrower */
 
-#navPanel, #navButton {
+#nav, #navButton {
 	display: none;
 }
 
@@ -3582,7 +3582,7 @@
 			width: 3.5em;
 		}
 
-		#navPanel {
+		#nav {
 			-moz-backface-visibility: hidden;
 			-webkit-backface-visibility: hidden;
 			-ms-backface-visibility: hidden;
@@ -3607,7 +3607,7 @@
 			color: #bbb;
 		}
 
-		#navPanel .link {
+		#nav .link {
 			border-bottom: 0;
 			border-top: solid 1px rgba(255, 255, 255, 0.05);
 			color: #bbb;
@@ -3618,54 +3618,54 @@
 			text-decoration: none;
 		}
 
-		#navPanel .link:first-child {
+		#nav .link:first-child {
 			border-top: 0;
 		}
 
-		#navPanel .link.depth-0 {
+		#nav .link.depth-0 {
 			color: #fff;
 		}
 
-		#navPanel .link .indent-1 {
+		#nav .link .indent-1 {
 			display: inline-block;
 			width: 1em;
 		}
 
-		#navPanel .link .indent-2 {
+		#nav .link .indent-2 {
 			display: inline-block;
 			width: 2em;
 		}
 
-		#navPanel .link .indent-3 {
+		#nav .link .indent-3 {
 			display: inline-block;
 			width: 3em;
 		}
 
-		#navPanel .link .indent-4 {
+		#nav .link .indent-4 {
 			display: inline-block;
 			width: 4em;
 		}
 
-		#navPanel .link .indent-5 {
+		#nav .link .indent-5 {
 			display: inline-block;
 			width: 5em;
 		}
 
-		body.navPanel-visible #page-wrapper {
+		body.nav-visible #page-wrapper {
 			-moz-transform: translateX(275px);
 			-webkit-transform: translateX(275px);
 			-ms-transform: translateX(275px);
 			transform: translateX(275px);
 		}
 
-		body.navPanel-visible #navButton {
+		body.nav-visible #navButton {
 			-moz-transform: translateX(275px);
 			-webkit-transform: translateX(275px);
 			-ms-transform: translateX(275px);
 			transform: translateX(275px);
 		}
 
-		body.navPanel-visible #navPanel {
+		body.nav-visible #nav {
 			-moz-transform: translateX(0);
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
