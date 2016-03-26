@@ -13,6 +13,20 @@
 		margin-bottom: 0;
 	}
 
+/* Dropotron */
+
+.dropotron {
+	border: solid 1px #e5e5e5;
+}
+
+.dropotron.level-0 {
+	margin-top: 0;
+}
+
+.dropotron.level-0:before {
+	display: none;
+}
+
 /* Form */
 
 	form input[type="text"],

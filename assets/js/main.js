@@ -198,10 +198,7 @@
 
 		// Dropdowns.
 		$('#nav > ul').dropotron({
-			mode: 'fade',
-			noOpenerFade: true,
-			hoverDelay: 150,
-			hideDelay: 350
+			alignment: 'right'
 		});
 
 		// Off-Canvas Navigation.
@@ -209,14 +206,14 @@
 		// Navigation Button.
 		$(
 			'<div id="navButton">' +
-			'<a href="#nav" class="toggle"></a>' +
+			'<a href="#navPanel" class="toggle"></a>' +
 			'</div>'
 		)
 			.appendTo($body);
 
 		// Navigation Panel.
 		$(
-			'<div id="nav">' +
+			'<div id="navPanel">' +
 			'<nav>' +
 			$('#nav').navList() +
 			'</nav>' +
@@ -231,13 +228,35 @@
 				resetForms: true,
 				side: 'left',
 				target: $body,
-				visibleClass: 'nav-visible'
+				visibleClass: 'navPanel-visible'
 			});
 
-		// Fix: Remove nav transitions on WP<10 (poor/buggy performance).
+		// Fix: Remove navPanel transitions on WP<10 (poor/buggy performance).
 		if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
-			$('#navButton, #nav, #page-wrapper')
+			$('#navButton, #navPanel, #page-wrapper')
 				.css('transition', 'none');
+
+		// Header.
+		// If the header is using "alt" styling and #banner is present, use scrollwatch
+		// to revert it back to normal styling once the user scrolls past the banner.
+		// Note: This is disabled on mobile devices.
+		if (!skel.vars.mobile
+			&&	$header.hasClass('alt')
+			&&	$banner.length > 0) {
+
+			$window.on('load', function() {
+
+				$banner.scrollwatch({
+					delay:		0,
+					range:		0.5,
+					anchor:		'top',
+					on:			function() { $header.addClass('alt reveal'); },
+					off:		function() { $header.removeClass('alt'); }
+				});
+
+			});
+
+		}*/
 
 		// Events.
 			var resizeTimeout, resizeScrollTimeout;
