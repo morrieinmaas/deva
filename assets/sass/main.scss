@@ -1097,6 +1097,40 @@ li {
 		}
 	}
 
+/* Work2 */
+
+#work2 {
+	.row.images {
+		.image {
+			@include vendor('transition', 'all 1s ease');
+			@include vendor('transform', 'translateZ(0)');
+			position: relative;
+			top: 0;
+			left: 0;
+			opacity: 1.0;
+		}
+
+		&.inactive {
+			.image {
+				opacity: 0;
+
+				&.from-left {
+					left: -14em;
+				}
+				&.from-right {
+					left: 14em;
+				}
+				&.from-top {
+					top: -7em;
+				}
+				&.from-bottom {
+					top: 7em;
+				}
+			}
+		}
+	}
+}
+
 /* Contact */
 
 	#contact {
