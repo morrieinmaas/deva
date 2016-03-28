@@ -985,6 +985,19 @@
 			}
 		}
 
+		#logo {
+			position: absolute;
+			left: 1em;
+			top: 0;
+			height: 3em;
+			line-height: 3em;
+			letter-spacing: -1px;
+
+			a {
+				font-size: 1.25em;
+			}
+		}
+
 		nav {
 			height: inherit;
 			line-height: inherit;
@@ -1630,6 +1643,34 @@
 /* Mobile */
 
 	@include breakpoint(mobile) {
+
+		/* Header */
+
+		#header {
+			height: 2.5em;
+			line-height: 2.5em;
+		}
+
+		body {
+			padding-top: 2.5em;
+		}
+
+		#logo {
+			text-align: center;
+			position: relative;
+			left: 0;
+			top: 0;
+			height: 2.5em;
+			line-height: 2.5em;
+
+			a {
+				font-size: 1em;
+			}
+		}
+
+		#nav {
+			display: none;
+		}
 
 
 		/* Basic */
