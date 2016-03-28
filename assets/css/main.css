@@ -1800,7 +1800,7 @@ html {
 }
 
 body {
-	background: #fff;
+	background: #4F6A7C; /* colour of the top bar! */
 	height: 100%;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
@@ -2353,7 +2353,7 @@ However, it has no effect on the mobile menu and dropdown menus work! */
 	top: 0;
 	width: 100%;
 	background: #fff;
-	background: #4F6A7C;;
+	background: #4F6A7C;
 	height: 3em;
 	line-height: 3em;
 	box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -3698,7 +3698,7 @@ body.is-touch .poptrox-popup .closer {
 		left: -60%;
 	}
 
-	/* Section/Article
+	/* Section/Article */
 
     header br {
         display: none;
@@ -3706,7 +3706,7 @@ body.is-touch .poptrox-popup .closer {
 
     header.major {
         padding: 0 4em;
-    }*/
+    }
 
 	/* Footer */
 
@@ -3803,12 +3803,12 @@ body.is-touch .poptrox-popup .closer {
 		content: '\f0c9';
 		display: block;
 		font-size: 16px;
-		height: 2.25em;
+		height: 2em;
 		left: 0.5em;
-		line-height: 2.25em;
+		line-height: 2em;
 		position: absolute;
 		text-align: center;
-		top: 0.5em;
+		top: 0.3em;
 		width: 3.5em;
 	}
 
@@ -4032,12 +4032,10 @@ body.is-touch .poptrox-popup .closer {
 			top: 0;
 			height: 2.5em;
 			line-height: 2.5em;
-			visibility: hidden;
 		}
 
 		#logo a {
 			font-size: 1em;
-			visibility: hidden;
 		}
 
 		#nav {
