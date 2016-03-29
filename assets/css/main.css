@@ -1810,6 +1810,7 @@ body {
 	letter-spacing: 0.5px;
 }
 
+
 body.is-loading *, body.is-resizing * {
 	-moz-transition: none !important;
 	-webkit-transition: none !important;
@@ -2386,6 +2387,20 @@ body {
 }
 
 #logo a {
+	font-size: 1.25em;
+}
+
+#logo2 {
+	position: absolute;
+	left: 1em;
+	top: 0;
+	height: 3em;
+	line-height: 3em;
+	letter-spacing: -1px;
+	color: #fff;
+}
+
+#logo2 a {
 	font-size: 1.25em;
 }
 
@@ -4234,6 +4249,19 @@ body.is-touch .poptrox-popup .closer {
 		}
 
 		#logo a {
+			font-size: 1em;
+		}
+
+		#logo2 {
+			text-align: center;
+			position: relative;
+			left: 0;
+			top: 0;
+			height: 2.5em;
+			line-height: 2.5em;
+		}
+
+		#logo2 a {
 			font-size: 1em;
 		}
 
