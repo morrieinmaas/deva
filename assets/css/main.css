@@ -1801,11 +1801,11 @@ html {
 
 body {
 	background: #4F6A7C; /* colour of the top bar! */
-	height: 0%;
+	height: 100%;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	font-size: 18pt;
-	line-height: 0em;
+	line-height: 1.75em;
 	color: #39454b;
 	letter-spacing: 0.5px;
 }
