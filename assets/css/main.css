@@ -2359,6 +2359,18 @@ However, it has no effect on the mobile menu and dropdown menus work! */
 	box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 }
 
+#header2 {
+	position: fixed;
+	z-index: 10000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: #fff;
+	height: 3em;
+	line-height: 3em;
+	box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+}
+
 body {
 	padding-top: 3em;
 }
