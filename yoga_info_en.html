@@ -11,7 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lte IE 8]>
 	<script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/main_yoga.css" />
 	<!--[if lte IE 8]>
 	<link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
 	<!--[if lte IE 9]>
@@ -34,28 +34,22 @@
 
 <!-- Header -->
 <div id="header-wrapper">
-	<div id="header" class="container">
+	<div id="header" class="alt">
 
 		<h1 id="logo">Deva Divine</h1>
 		<!-- Nav -->
 		<nav id="nav">
 			<ul>
-				<li><a href="index.html">About</a></li>
-				<li><a href="index.html">Blog</a></li>
-				<li>
-					<a href="#" class="icon fa-angle-down">Prices</a>
-					<ul>
-						<li><a href="generic.html">Studio Deva Divine</a></li>
-						<li><a href="contact.html">Teachers</a></li>
-					</ul>
-				</li>
+				<li><a href="#one">Studio</a></li>
+				<li><a href="#two">About Deva</a></li>
+				<li><a href="lessen_prijzen_yoga_en2.html">Prices</a></li>
 				<li>
 					<a href="#" class="icon fa-angle-down">Classes</a>
 					<ul>
-						<li><a href="generic.html">Yoga</a></li>
-						<li><a href="contact.html">Info</a></li>
-						<li><a href="elements.html">Agenda</a></li>
-						<li><a href="elements.html">F.A.Q.s</a></li>
+						<li><a href="agenda_yoga_en2.html">Timetable</a></li>
+						<li><a href="../over_buikdans_en2.html">About Yoga</a></li>
+						<li><a href="#">Teachers</a></li>
+						<li><a href="#">F.A.Q.s</a></li>
 					</ul>
 				</li>
 				<li>
@@ -64,16 +58,11 @@
 						<li><a href="generic.html">What people say...</a></li>
 					</ul>
 				</li>
-
-				<li>
-					<a href="#" class="icon fa-angle-down">Contact</a>
-					<ul>
-						<li><a href="generic.html">Sign Up</a></li>
-					</ul>
-				</li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="../agenda_en2.html#contact" class="button">Sign Up</a></li>
 			</ul>
 		</nav>
-
 	</div>
 </div>
 
@@ -110,7 +99,7 @@
 				</br>
 				</br>
 				</br>
-				<p><i>"Stop action so small. You are the universe in ecstatic motion."</i></br>
+				<p><i>"Stop acting so small. You are the universe in ecstatic motion."</i></br>
 				- Rumi -</p>
 				</br>
 	</div>
@@ -120,33 +109,44 @@
 <section id="contact" class="main style3 secondary">
 	<div class="content container">
 		<header>
-			<h2>Contact me!</h2>
-			<p>I am very nice and usually don't bite, so if you have any questions, please let me know.</p>
+			<h2>Get in touch!</h2>
 		</header>
-		<div class="box container 75%">
-
-			<!-- Contact Form -->
-			<form method="post" action="#">
-				<div class="row 50%">
-					<div class="6u 12u(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-					<div class="6u 12u(mobile)"><input type="email" name="email" placeholder="Email" /></div>
-				</div>
-				<div class="row 50%">
-					<div class="12u"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
-				</div>
-				<div class="row">
-					<div class="12u">
-						<ul class="actions">
-							<li><input type="submit" value="Send Message" /></li>
-						</ul>
-					</div>
-				</div>
-			</form>
-
+		<p><h4>Registration form</h4></p><br>
+		<form action="../send_mailinschrijf.php" method="post" name="formulier" id="form">
+			<div class="row 50%">
+				<div class="6u 12u(mobile)"><input type="text" name="naam" placeholder="Name" /></div>
+				<div class="6u 12u(mobile)"><input type="text" name="achternaam" placeholder="Last Name" /></div>
+			</div>
+			<div class="row 50%">
+				<div class="12u"><input type="text" name="email" placeholder="email" /></div>
+			</div>
+			<div class="row 50%">
+				<div class="12u"><textarea name="opmerkingen_vragen" placeholder="Questions/remarks" rows="6"></textarea></div>
+			</div>
+			<br>
+			<input type="submit" value="Submit" />
+			<br>
+			<br>
+		</form>
+		<div id="strookjeonderaan">
 		</div>
+		<!-- Piwik -->
+		<script type="text/javascript">
+			var _paq = _paq || [];
+			_paq.push(['trackPageView']);
+			_paq.push(['enableLinkTracking']);
+			(function() {
+				var u="//www.goddessfusion.com/piwik/";
+				_paq.push(['setTrackerUrl', u+'piwik.php']);
+				_paq.push(['setSiteId', 1]);
+				var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+				g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+			})();
+		</script>
+		<noscript><p><img src="//www.goddessfusion.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+
 	</div>
 </section>
-
 <!-- Footer -->
 <footer id="footer">
 
@@ -162,7 +162,7 @@
 
 	<!-- Menu -->
 	<ul class="menu">
-		<li>&copy; Deva Divine, 2016.</li><li>Webdesign: <a href="http://macademia.guru">Macademia</a></li><li>inspired by: <a href="http://html5up.net">HTML5 UP</a></li>
+		<li>&copy; Deva Divine, 2016.</li><li>Webdesign: <a href="http://macademia.guru">macademia</a></li><li>inspired by: <a href="http://html5up.net">HTML5 UP</a></li>
 	</ul>
 
 </footer>
