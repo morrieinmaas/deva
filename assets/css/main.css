@@ -1801,11 +1801,11 @@ html {
 
 body {
 	background: #4F6A7C; /* colour of the top bar! */
-	height: 100%;
+	height: 0%;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	font-size: 18pt;
-	line-height: 1.75em;
+	line-height: 0em;
 	color: #39454b;
 	letter-spacing: 0.5px;
 }
@@ -4083,7 +4083,7 @@ body.is-touch .poptrox-popup .closer {
 		}
 
 		body {
-			padding-top: 2.5em;
+			padding-top: 0em;
 		}
 
 		#logo {
