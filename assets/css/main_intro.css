@@ -26,6 +26,14 @@ body {
 	line-height: 1;
 }
 
+.separator {
+	display: block;
+}
+
+.mobilehide {
+	display: block;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -3658,6 +3666,14 @@ body.is-touch .poptrox-popup .closer {
 		font-size: 14pt;
 	}
 
+	.separator {
+		display: none;
+	}
+
+	.mobilehide {
+		display: block;
+	}
+
 	/* Header */
 
 	.dropotron.level-0 {
@@ -3674,6 +3690,14 @@ body.is-touch .poptrox-popup .closer {
 
 	body, input, textarea, select {
 		font-size: 13pt;
+	}
+
+	.separator {
+		display: none;
+	}
+
+	.mobilehide {
+		display: block;
 	}
 
 	/* Main */
@@ -3704,6 +3728,14 @@ body.is-touch .poptrox-popup .closer {
 
 	body, input, textarea, select {
 		font-size: 13pt;
+	}
+
+	.separator {
+		display: none;
+	}
+
+	.mobilehide {
+		display: block;
 	}
 
 	.container > .container {
@@ -3770,7 +3802,7 @@ body.is-touch .poptrox-popup .closer {
 		display: none;
 	}
 
-	/* Off-Canvas Navigation */
+	/* Off-Canvas Navigation
 
 	#page-wrapper {
 		-moz-backface-visibility: hidden;
@@ -3926,7 +3958,7 @@ body.is-touch .poptrox-popup .closer {
 		-webkit-transform: translateX(0);
 		-ms-transform: translateX(0);
 		transform: translateX(0);
-	}}
+	}} */
 
 	/* Mobile */
 
@@ -3939,6 +3971,19 @@ body.is-touch .poptrox-popup .closer {
 			font-size: 12pt;
 			line-height: 1.5em;
 		}
+
+		.separator {
+			display: block;
+		}
+
+		.mobilehide {
+			display: none;
+		}
+
+		#banner {
+			padding: 7em 0 20em 0;
+		}
+	}
 
 		input, textarea, select {
 			font-size: 12pt;

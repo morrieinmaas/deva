@@ -3633,7 +3633,7 @@ body.is-touch .poptrox-popup .closer {
 	/* Basic */
 
 	body, input, textarea, select {
-		font-size: 14pt;
+		font-size: 13pt;
 	}
 
 	/* Header */
@@ -3651,7 +3651,7 @@ body.is-touch .poptrox-popup .closer {
 	/* Basic */
 
 	body, input, textarea, select {
-		font-size: 13pt;
+		font-size: 12pt;
 	}
 
 	/* Main */
@@ -3681,7 +3681,7 @@ body.is-touch .poptrox-popup .closer {
 	/* Basic */
 
 	body, input, textarea, select {
-		font-size: 13pt;
+		font-size: 11pt;
 	}
 
 	.container > .container {
@@ -3746,6 +3746,10 @@ body.is-touch .poptrox-popup .closer {
 
 	#header {
 		display: none;
+	}
+
+	body {
+		padding-top: 0em;
 	}
 
 	/* Off-Canvas Navigation */
@@ -4061,7 +4065,7 @@ body.is-touch .poptrox-popup .closer {
 		}
 
 		body {
-			padding-top: 2.5em;
+			padding-top: 0em;
 		}
 
 		#logo {
