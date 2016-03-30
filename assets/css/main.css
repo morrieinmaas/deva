@@ -3833,6 +3833,10 @@ body.is-touch .poptrox-popup .closer {
 		display: none;
 	}
 
+	body {
+		padding: 0em;
+	}
+
 	/* Off-Canvas Navigation */
 
 	#page-wrapper {
