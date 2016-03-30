@@ -2531,7 +2531,7 @@ body {
 	background: #4F6A7C;  /* colour of the dropdown background */
 	border-radius: 6px;
 	/* colour of the box circumference below */
-	box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.065), inset 0 -1px 0 0 #15E6CD, inset 0 0 0 1px rgba(21,230,205, 0.5);
+	box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.065), inset 0 -1px 0 0 #4F6A7C, inset 0 0 0 1px rgba(79,106,124, 0.5);
 	list-style: none;
 	margin: calc(-0.5em + 1px) 0 0 1px;
 	padding: 0.5em 0;
@@ -2548,7 +2548,7 @@ body {
 	-ms-transition: none;
 	transition: none;
 	border: 0;
-	border-top: solid 1px #15E6CD; /* colour of the horizontal separation lines */
+	border-top: solid 1px #4F6A7C; /* colour of the horizontal separation lines */
 	color: #15E6CD;  /* colour of the text in the dropdown menu */
 	display: block;
 	padding: 0.15em 1em;
@@ -2577,7 +2577,7 @@ body {
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 	background: #4F6A7C; /* colour of the little triangle */
-	border: solid 1px rgba(21,230,205, 0.5); /* border of the little triangle */
+	border: solid 1px rgba(79,106,124, 0.5); /* border of the little triangle */
 	border-bottom: 0;
 	border-right: 0;
 	box-shadow: -0.25em -0.125em 0.125em 0 rgba(0, 0, 0, 0.015);
@@ -2625,6 +2625,15 @@ body {
 
 #two {
 	background: url("../../assets/css/images/overlay.png"), url("../../images2/fulls/deva/laura01__LMO3130_20150816.jpg");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: center center, center center;
+}
+
+/* Three */
+
+#three {
+	background: url("../../assets/css/images/overlay.png"), url("../../images2/fulls/deva/studio5.jpg");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: center center, center center;
@@ -3335,7 +3344,7 @@ body.is-loading:after {
 	height: 5em;
 	line-height: 5em;
 	margin: 0;
-	background: #39454b;
+	background: #4F6A7C;
 	color: #999;
 	color: rgba(185, 186, 187, 0.5);
 	overflow: hidden;
@@ -3859,14 +3868,14 @@ body.is-touch .poptrox-popup .closer {
 		top: 0;
 		width: 275px;
 		z-index: 10002;
-		background: #2b2b2b;
+		background: #fff; /* background of mobile menu */
 		color: #bbb;
 	}
 
 	#navPanel .link {
 		border-bottom: 0;
 		border-top: solid 1px rgba(255, 255, 255, 0.05);
-		color: #bbb;
+		color: #4a4a4a;  /* colour of subentries of mobile menu */
 		display: block;
 		height: 44px;
 		line-height: 44px;
@@ -3879,7 +3888,7 @@ body.is-touch .poptrox-popup .closer {
 	}
 
 	#navPanel .link.depth-0 {
-		color: #fff;
+		color: #252525;  /* entries of mobile menu */
 	}
 
 	#navPanel .link .indent-1 {
