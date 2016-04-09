@@ -2791,7 +2791,7 @@ body {
 }
 
 .main.fullscreen {
-	height: 110%;
+	height: 100%;
 }
 
 .main.style1 {
@@ -3685,6 +3685,10 @@ body.is-touch .poptrox-popup .closer {
 	display: none;
 }
 
+body{
+	padding: 0em;
+}
+
 @media screen and (max-width: 840px) {
 
 	/* Basic */
@@ -3951,7 +3955,7 @@ body.is-touch .poptrox-popup .closer {
 		/* Main */
 
 		.main.fullscreen {
-			height: auto !important;
+			height: 100%;/* auto !important;*/
 		}
 
 		.main.style1 {
@@ -4070,7 +4074,7 @@ body.is-touch .poptrox-popup .closer {
 		}
 
 		body {
-			padding-top: 2.5em;
+			padding-top: 0em;
 		}
 
 		#logo {
