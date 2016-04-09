@@ -1,0 +1,1996 @@
+@media only screen and (min-width: 1920px) {
+/* plaats hier de css code voor breedbeeld pc/tv */
+body
+{
+background-color:black;
+font-family:Verdana, sans-serif;
+color:white;
+margin-bottom:2%;
+margin-right:7%;
+}
+
+#fb
+{
+float:left;
+border:0;
+width:10%;
+}
+
+#fb img
+{
+width:100%;
+}
+
+h1
+{
+font-family:'Lobster Two', cursive;
+margin-left:8%;
+}
+
+h2, h3
+{
+font-family:'Lobster Two', cursive;
+margin-left:12%;
+}
+
+p
+{
+margin-left:5%;
+margin-right:5%;
+}
+
+ul, ol
+{
+margin-left:5%;
+margin-right:2%;
+}
+
+#bovenbalk
+{
+width:72%;
+height:29%;
+margin-left:auto;
+margin-right:auto;
+
+background-color:#FFD700;
+background: -ms-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -moz-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -webkit-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -o-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+
+margin-top:2%;
+}
+
+#bovenbalk_tekst
+{
+text-align:center;
+font-family:Great Vibes;
+color:#FFFFFF;
+font-size:520%;
+text-shadow: 2px 2px grey;
+margin-left:5%;
+padding-top:2%;
+}
+
+#titelkleiner
+{
+font-size:66%;
+}
+
+.margin
+{
+margin-left:5%;
+}
+
+.floatleft
+{
+float:left;
+margin-left:2%;
+}
+
+.small
+{
+font-size:small;
+}
+
+.border
+{
+border:3px double #7A7A7A;
+}
+
+.lessentabel
+{
+border:1px solid white;
+margin-left:5%;
+border-collapse:collapse;
+}
+
+.lessentabel td
+{
+border:1px solid white;
+padding:1%;
+background-color:#2A0F4D;
+width:33%;
+vertical-align:top;
+}
+
+.lessentabel td h2
+{
+margin-left:0;
+text-align:center;
+}
+
+.lessentabel2
+{
+border:1px solid white;
+margin-left:5%;
+border-collapse:collapse;
+width:100%;
+}
+
+.lessentabel2 td
+{
+border:1px solid white;
+padding:1%;
+background-color:#2A0F4D;
+vertical-align:top;
+}
+
+.lessentabel2 td h2
+{
+margin-left:0;
+}
+
+.video
+{
+width:48%;
+height:36%;
+margin-left:10%;
+}
+
+.Deva
+{
+font-family:'Lobster Two', cursive;
+font-size:x-large;
+float:left;
+margin-top:17%;
+}
+
+.pasfoto
+{
+width:22%;
+float:right;
+margin:2%;
+}
+
+.fotorechts
+{
+width:26%;
+float:right;
+margin:2%;
+}
+
+.fotolinks
+{
+width:30%;
+margin:2%;
+}
+
+.fotomidden
+{
+width:30%;
+margin:2%;
+margin-left:34%;
+}
+
+.aanbieding
+{
+font-size:1.2em;
+font-weight:bold;
+color:#A316DB;
+}
+
+#taal
+{
+text-align:center;
+padding:1%;
+border:2px solid grey;
+float:right;
+width:8%;
+}
+
+#taal a
+{
+text-decoration:none;
+color:white;
+}
+
+#taal:hover
+{
+background-color:#2A0F4D;
+}
+
+#redoute_quote
+{
+margin-left:5%;
+float:left;
+width:28%;
+margin-right:2%;
+}
+
+#redoute_quote img
+{
+width:100%;
+}
+
+#form
+{
+margin-left:5%;
+}
+
+#deur
+{
+margin-left:5%;
+float:left;
+}
+
+#galerij
+{
+margin-left:8%;
+}
+
+#galerij img
+{
+width:80%;
+height:80%;
+border:3px double #7A7A7A;
+}
+
+#galerij img:hover
+{
+opacity:0.7;
+border:3px double #7A7A7A;
+}
+
+#fotocontact
+{
+float:right;
+width:28%;
+border:1px solid white;
+margin-right:12%;
+}
+
+#contactklaar
+{
+color:white;
+margin-left:5%;
+text-decoration:none;
+padding:1%;
+border:2px solid white;
+}
+
+#adres
+{
+background-image: url("images/adresachtergrond.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width:22%;
+height:18%;
+margin-left:5%;
+padding:1%;
+font-weight:bold;
+font-size:1em;
+text-align:center;
+}
+
+#adres2
+{
+background-image: url("images/adresachtergrond.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width:22%;
+height:18%;
+padding:1%;
+font-weight:bold;
+font-size:1em;
+float:left;
+margin-top:11%;
+margin-left:2%;
+text-align:center;
+}
+
+#agenda_tabel
+{
+border:1px solid white;
+border-collapse:collapse;
+width:68%;
+}
+
+#agenda_tabel td
+{
+border:1px solid white;
+padding:1%;
+width:25%;
+}
+
+#agenda_tabel tr td
+{
+height:14%;
+}
+
+#contact
+{
+text-align:center;
+margin-left:40%;
+width:16%;
+border:1px solid white;
+padding:1%;
+}
+
+#contact a
+{
+font-size:large;
+text-decoration:none;
+color:white;
+}
+
+#contact a:hover
+{
+font-size:large;
+text-decoration:none;
+color:#F5D790;
+}
+
+#helpstrookje_18
+{
+height:36%;
+}
+
+#helpstrookje_42
+{
+height:24%;
+}
+
+#helpstrookje_68
+{
+height:74%;
+}
+
+#helpstrookje_82
+{
+height:80%;
+}
+
+#helpstrookje_822
+{
+height:98%;
+}
+
+#strookjeonderaan
+{
+text-align:right;
+width:100%;
+background-color:black;
+}
+
+#webdesigner, .link
+{
+text-decoration:none;
+font-size:small;
+font-style:italic;
+color:white;
+padding:4px 0px 4px 0px;
+margin:4px 0px 4px 0px;
+}
+.link {text-decoration: underline;}
+.designer
+{
+font-size:small;
+padding:4px 0px 4px 0px;
+margin:4px 0px 4px 0px;
+}
+}
+
+@media only screen and (max-width: 1024px) { 
+/* plaats hier de css code voor tablets in landscape mode */
+body
+{
+background-color:black;
+font-family:Verdana, sans-serif;
+color:white;
+margin-bottom:2%;
+margin-right:7%;
+}
+
+h1
+{
+font-family:'Lobster Two', cursive;
+margin-left:8%;
+}
+
+h2, h3
+{
+font-family:'Lobster Two', cursive;
+margin-left:12%;
+}
+
+p
+{
+margin-left:5%;
+margin-right:5%;
+}
+
+ul, ol
+{
+margin-left:5%;
+margin-right:2%;
+}
+
+#fb
+{
+float:left;
+border:0;
+width:12%;
+}
+
+#fb img
+{
+width:100%;
+}
+
+#bovenbalk
+{
+width:72%;
+height:34%;
+margin-left:auto;
+margin-right:auto;
+
+background-color:#FFD700;
+background: -ms-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -moz-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -webkit-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -o-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+
+margin-top:2%;
+}
+
+#bovenbalk_tekst
+{
+text-align:center;
+font-family:Great Vibes;
+color:#FFFFFF;
+font-size:520%;
+text-shadow: 2px 2px grey;
+margin-left:5%;
+padding-top:2%;
+}
+
+#titelkleiner
+{
+font-size:66%;
+}
+
+.margin
+{
+margin-left:5%;
+}
+
+.floatleft
+{
+float:left;
+margin-left:2%;
+}
+
+.small
+{
+font-size:small;
+}
+
+.border
+{
+border:3px double #7A7A7A;
+}
+
+.lessentabel
+{
+border:1px solid white;
+margin-left:5%;
+border-collapse:collapse;
+}
+
+.lessentabel td
+{
+border:1px solid white;
+padding:1%;
+background-color:#2A0F4D;
+width:33%;
+vertical-align:top;
+}
+
+.lessentabel td h2
+{
+margin-left:0;
+text-align:center;
+}
+
+.lessentabel2
+{
+border:1px solid white;
+margin-left:5%;
+border-collapse:collapse;
+width:100%;
+}
+
+.lessentabel2 td
+{
+border:1px solid white;
+padding:1%;
+background-color:#2A0F4D;
+vertical-align:top;
+}
+
+.lessentabel2 td h2
+{
+margin-left:0;
+}
+
+.video
+{
+width:48%;
+height:36%;
+margin-left:10%;
+}
+
+.Deva
+{
+font-family:'Lobster Two', cursive;
+font-size:x-large;
+float:left;
+margin-top:17%;
+}
+
+.pasfoto
+{
+width:22%;
+float:right;
+margin:2%;
+}
+
+.fotorechts
+{
+width:26%;
+float:right;
+margin:2%;
+}
+
+.fotolinks
+{
+width:30%;
+margin:2%;
+}
+
+.fotomidden
+{
+width:30%;
+margin:2%;
+margin-left:34%;
+}
+
+.aanbieding
+{
+font-size:1.2em;
+font-weight:bold;
+color:#A316DB;
+}
+
+#taal
+{
+text-align:center;
+padding:1%;
+border:2px solid grey;
+float:right;
+width:8%;
+}
+
+#taal a
+{
+text-decoration:none;
+color:white;
+}
+
+#taal:hover
+{
+background-color:#2A0F4D;
+}
+
+#redoute_quote
+{
+margin-left:5%;
+float:left;
+width:28%;
+margin-right:2%;
+}
+
+#redoute_quote img
+{
+width:100%;
+}
+
+#form
+{
+margin-left:5%;
+}
+
+#deur
+{
+margin-left:5%;
+float:left;
+}
+
+#galerij
+{
+margin-left:8%;
+}
+
+#galerij img
+{
+width:80%;
+height:80%;
+border:3px double #7A7A7A;
+}
+
+#galerij img:hover
+{
+opacity:0.7;
+border:3px double #7A7A7A;
+}
+
+#fotocontact
+{
+float:right;
+width:28%;
+border:1px solid white;
+margin-right:12%;
+}
+
+#contactklaar
+{
+color:white;
+margin-left:5%;
+text-decoration:none;
+padding:1%;
+border:2px solid white;
+}
+
+#adres
+{
+background-image: url("images/adresachtergrond.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width:26%;
+height:34%;
+margin-left:5%;
+padding:1%;
+font-weight:bold;
+font-size:1em;
+text-align:center;
+}
+
+#adres2
+{
+background-image: url("images/adresachtergrond.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width:26%;
+height:34%;
+padding:1%;
+font-weight:bold;
+font-size:1em;
+float:left;
+margin-top:11%;
+margin-left:2%;
+text-align:center;
+}
+
+#agenda_tabel
+{
+border:1px solid white;
+border-collapse:collapse;
+width:68%;
+}
+
+#agenda_tabel td
+{
+border:1px solid white;
+padding:2%;
+width:25%;
+}
+
+#agenda_tabel tr td
+{
+height:14%;
+}
+
+#contact
+{
+text-align:center;
+margin-left:40%;
+width:16%;
+border:1px solid white;
+padding:1%;
+}
+
+#contact a
+{
+font-size:large;
+text-decoration:none;
+color:white;
+}
+
+#contact a:hover
+{
+font-size:large;
+text-decoration:none;
+color:#F5D790;
+}
+
+#helpstrookje_18
+{
+height:14%;
+}
+
+#helpstrookje_42
+{
+height:24%;
+}
+
+#helpstrookje_68
+{
+height:70%;
+}
+
+#helpstrookje_82
+{
+height:80%;
+}
+
+#helpstrookje_822
+{
+height:91%;
+}
+
+#strookjeonderaan
+{
+text-align:right;
+width:100%;
+background-color:black;
+}
+
+#webdesigner
+{
+text-decoration:none;
+font-size:small;
+font-style:italic;
+color:white;
+padding:4px 0px 4px 0px;
+margin:4px 0px 4px 0px;
+}
+
+.designer
+{
+font-size:small;
+padding:4px 0px 4px 0px;
+margin:4px 0px 4px 0px;
+}
+}
+
+@media only screen and (max-width: 960px) { 
+/* plaats hier de css code voor tablets in portrait mode */
+body
+{
+background-color:black;
+font-family:Verdana, sans-serif;
+color:white;
+margin-bottom:2%;
+margin-right:7%;
+}
+
+h1
+{
+font-family:'Lobster Two', cursive;
+margin-left:8%;
+}
+
+h2, h3
+{
+font-family:'Lobster Two', cursive;
+margin-left:12%;
+}
+
+p
+{
+margin-left:5%;
+margin-right:5%;
+}
+
+ul, ol
+{
+margin-left:5%;
+margin-right:2%;
+}
+
+#fb
+{
+float:left;
+border:0;
+width:12%;
+}
+
+#fb img
+{
+width:100%;
+}
+
+#bovenbalk
+{
+width:78%;
+height:20%;
+margin-left:auto;
+margin-right:auto;
+
+background-color:#FFD700;
+background: -ms-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -moz-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -webkit-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -o-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+
+margin-top:2%;
+}
+
+#bovenbalk_tekst
+{
+text-align:center;
+font-family:Great Vibes;
+color:#FFFFFF;
+font-size:520%;
+text-shadow: 2px 2px grey;
+margin-left:5%;
+padding-top:2%;
+}
+
+#titelkleiner
+{
+font-size:66%;
+}
+
+.margin
+{
+margin-left:5%;
+}
+
+.floatleft
+{
+float:left;
+margin-left:2%;
+}
+
+.small
+{
+font-size:small;
+}
+
+.border
+{
+border:3px double #7A7A7A;
+}
+
+.lessentabel
+{
+border:1px solid white;
+margin-left:5%;
+border-collapse:collapse;
+}
+
+.lessentabel td
+{
+border:1px solid white;
+padding:1%;
+background-color:#2A0F4D;
+width:33%;
+vertical-align:top;
+}
+
+.lessentabel td h2
+{
+margin-left:0;
+text-align:center;
+}
+
+.lessentabel2
+{
+border:1px solid white;
+margin-left:5%;
+border-collapse:collapse;
+width:100%;
+}
+
+.lessentabel2 td
+{
+border:1px solid white;
+padding:1%;
+background-color:#2A0F4D;
+vertical-align:top;
+}
+
+.lessentabel2 td h2
+{
+margin-left:0;
+}
+
+.video
+{
+width:48%;
+height:36%;
+margin-left:10%;
+}
+
+.Deva
+{
+font-family:'Lobster Two', cursive;
+font-size:x-large;
+float:left;
+margin-top:17%;
+}
+
+.pasfoto
+{
+width:22%;
+float:right;
+margin:2%;
+}
+
+.fotorechts
+{
+width:38%;
+float:right;
+margin:2%;
+}
+
+.fotolinks
+{
+width:38%;
+margin:2%;
+}
+
+.fotomidden
+{
+width:38%;
+margin:2%;
+margin-left:34%;
+}
+
+.aanbieding
+{
+font-size:1.2em;
+font-weight:bold;
+color:#A316DB;
+}
+
+#taal
+{
+text-align:center;
+padding:1%;
+border:2px solid grey;
+float:right;
+width:8%;
+}
+
+#taal a
+{
+text-decoration:none;
+color:white;
+}
+
+#taal:hover
+{
+background-color:#2A0F4D;
+}
+
+#redoute_quote
+{
+margin-left:5%;
+float:left;
+width:28%;
+margin-right:2%;
+}
+
+#redoute_quote img
+{
+width:100%;
+}
+
+#form
+{
+margin-left:5%;
+}
+
+#deur
+{
+margin-left:5%;
+float:left;
+}
+
+#galerij
+{
+margin-left:8%;
+}
+
+#galerij img
+{
+width:82%;
+height:80%;
+border:3px double #7A7A7A;
+}
+
+#galerij img:hover
+{
+opacity:0.7;
+border:3px double #7A7A7A;
+}
+
+#fotocontact
+{
+float:right;
+width:28%;
+border:1px solid white;
+margin-right:12%;
+}
+
+#contactklaar
+{
+color:white;
+margin-left:5%;
+text-decoration:none;
+padding:1%;
+border:2px solid white;
+}
+
+#adres
+{
+background-image: url("images/adresachtergrond.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width:32%;
+height:18%;
+margin-left:5%;
+padding:1%;
+font-weight:bold;
+font-size:1em;
+text-align:center;
+}
+
+#adres2
+{
+background-image: url("images/adresachtergrond.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width:32%;
+height:18%;
+padding:1%;
+font-weight:bold;
+font-size:1em;
+float:left;
+margin-top:11%;
+margin-left:2%;
+text-align:center;
+}
+
+#agenda_tabel
+{
+border:1px solid white;
+border-collapse:collapse;
+width:68%;
+}
+
+#agenda_tabel td
+{
+border:1px solid white;
+padding:2%;
+width:25%;
+}
+
+#agenda_tabel tr td
+{
+height:14%;
+}
+
+#contact
+{
+text-align:center;
+margin-left:40%;
+width:16%;
+border:1px solid white;
+padding:1%;
+}
+
+#contact a
+{
+font-size:large;
+text-decoration:none;
+color:white;
+}
+
+#contact a:hover
+{
+font-size:large;
+text-decoration:none;
+color:#F5D790;
+}
+
+#helpstrookje_18
+{
+height:5%;
+}
+
+#helpstrookje_42
+{
+height:42%;
+}
+
+#helpstrookje_68
+{
+height:29%;
+}
+
+#helpstrookje_82
+{
+height:30%;
+}
+
+#helpstrookje_822
+{
+height:38%;
+}
+
+#strookjeonderaan
+{
+text-align:right;
+width:100%;
+background-color:black;
+}
+
+#webdesigner
+{
+text-decoration:none;
+font-size:small;
+font-style:italic;
+color:white;
+padding:4px 0px 4px 0px;
+margin:4px 0px 4px 0px;
+}
+
+.designer
+{
+font-size:small;
+padding:4px 0px 4px 0px;
+margin:4px 0px 4px 0px;
+}
+}
+
+@media only screen and (max-width: 767px) { 
+/* plaats hier de css code voor smartphones in landscape mode */
+body
+{
+background-color:black;
+font-family:Verdana, sans-serif;
+color:white;
+margin-bottom:2%;
+margin-right:7%;
+font-size:small;
+}
+
+h1
+{
+font-family:'Lobster Two', cursive;
+margin-left:8%;
+font-size:medium;
+}
+
+h2, h3
+{
+font-family:'Lobster Two', cursive;
+margin-left:12%;
+font-size:medium;
+}
+
+p
+{
+margin-left:5%;
+margin-right:5%;
+}
+
+ul, ol
+{
+margin-left:5%;
+margin-right:2%;
+}
+
+#fb
+{
+float:left;
+border:0;
+width:13%;
+}
+
+#fb img
+{
+width:100%;
+}
+
+#bovenbalk
+{
+width:72%;
+height:60%;
+margin-left:auto;
+margin-right:auto;
+
+background-color:#FFD700;
+background: -ms-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -moz-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -webkit-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -o-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+
+margin-top:2%;
+}
+
+#bovenbalk_tekst
+{
+text-align:center;
+font-family:Great Vibes;
+color:#FFFFFF;
+font-size:360%;
+text-shadow: 2px 2px grey;
+margin-left:5%;
+padding-top:2%;
+}
+
+#titelkleiner
+{
+font-size:66%;
+}
+
+.margin
+{
+margin-left:5%;
+}
+
+.floatleft
+{
+float:left;
+margin-left:2%;
+}
+
+.small
+{
+font-size:small;
+}
+
+.border
+{
+border:3px double #7A7A7A;
+}
+
+.lessentabel
+{
+border:1px solid white;
+margin-left:5%;
+border-collapse:collapse;
+font-size:small;
+}
+
+.lessentabel td
+{
+border:1px solid white;
+padding:1%;
+background-color:#2A0F4D;
+width:33%;
+vertical-align:top;
+font-size:small;
+}
+
+.lessentabel td h2
+{
+margin-left:0;
+text-align:center;
+font-size:medium;
+}
+
+.lessentabel2
+{
+border:1px solid white;
+margin-left:5%;
+border-collapse:collapse;
+width:100%;
+font-size:small;
+}
+
+.lessentabel2 td
+{
+border:1px solid white;
+padding:1%;
+background-color:#2A0F4D;
+vertical-align:top;
+font-size:small;
+}
+
+.lessentabel2 td h2
+{
+margin-left:0;
+font-size:medium;
+}
+
+.video
+{
+width:48%;
+height:36%;
+margin-left:10%;
+}
+
+.Deva
+{
+font-family:'Lobster Two', cursive;
+font-size:small;
+float:left;
+margin-top:17%;
+}
+
+.pasfoto
+{
+width:22%;
+float:right;
+margin:2%;
+}
+
+.fotorechts
+{
+width:26%;
+float:right;
+margin:2%;
+}
+
+.fotolinks
+{
+width:30%;
+margin:2%;
+}
+
+.fotomidden
+{
+width:30%;
+margin:2%;
+margin-left:34%;
+}
+
+.aanbieding
+{
+font-size:1.2em;
+font-weight:bold;
+color:#A316DB;
+}
+
+#taal
+{
+text-align:center;
+padding:1%;
+border:2px solid grey;
+float:right;
+width:8%;
+}
+
+#taal a
+{
+text-decoration:none;
+color:white;
+}
+
+#taal:hover
+{
+background-color:#2A0F4D;
+}
+
+#redoute_quote
+{
+margin-left:5%;
+float:left;
+width:28%;
+margin-right:2%;
+}
+
+#redoute_quote img
+{
+width:100%;
+}
+
+#form
+{
+margin-left:5%;
+}
+
+#deur
+{
+margin-left:5%;
+float:left;
+}
+
+#galerij
+{
+margin-left:8%;
+}
+
+#galerij img
+{
+width:100%;
+height:40%;
+border:3px double #7A7A7A;
+}
+
+#galerij img:hover
+{
+opacity:0.7;
+border:3px double #7A7A7A;
+}
+
+#fotocontact
+{
+float:right;
+width:28%;
+border:1px solid white;
+margin-right:12%;
+}
+
+#contactklaar
+{
+color:white;
+margin-left:5%;
+text-decoration:none;
+padding:1%;
+border:2px solid white;
+}
+
+#adres
+{
+background-image: url("images/adresachtergrond.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width:34%;
+height:56%;
+margin-left:5%;
+padding:1%;
+font-weight:bold;
+font-size:1em;
+text-align:center;
+}
+
+#adres2
+{
+background-image: url("images/adresachtergrond.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width:32%;
+height:26%;
+padding:1%;
+font-weight:bold;
+font-size:1em;
+float:left;
+margin-top:11%;
+margin-left:2%;
+text-align:center;
+}
+
+#agenda_tabel
+{
+border:1px solid white;
+border-collapse:collapse;
+width:48%;
+font-size:small;
+}
+
+#agenda_tabel td
+{
+border:1px solid white;
+padding:2%;
+width:25%;
+font-size:small;
+}
+
+#agenda_tabel tr td
+{
+height:14%;
+font-size:small;
+}
+
+#contact
+{
+text-align:center;
+margin-left:40%;
+width:16%;
+border:1px solid white;
+padding:1%;
+}
+
+#contact a
+{
+font-size:large;
+text-decoration:none;
+color:white;
+}
+
+#contact a:hover
+{
+font-size:large;
+text-decoration:none;
+color:#F5D790;
+}
+
+#helpstrookje_18
+{
+height:5%;
+}
+
+#helpstrookje_42
+{
+height:24%;
+}
+
+#helpstrookje_68
+{
+height:26%;
+}
+
+#helpstrookje_82
+{
+height:66%;
+}
+
+#helpstrookje_822
+{
+height:72%;
+}
+
+#strookjeonderaan
+{
+text-align:right;
+width:100%;
+background-color:black;
+}
+
+#webdesigner
+{
+text-decoration:none;
+font-size:small;
+font-style:italic;
+color:white;
+padding:4px 0px 4px 0px;
+margin:4px 0px 4px 0px;
+}
+
+.designer
+{
+font-size:small;
+padding:4px 0px 4px 0px;
+margin:4px 0px 4px 0px;
+}
+}
+
+@media only screen and (max-width: 479px) {
+/* plaats hier de css code voor smartphones in portrait mode */
+body
+{
+background-color:black;
+font-family:Verdana, sans-serif;
+color:white;
+margin-bottom:2%;
+margin-right:7%;
+font-size:small;
+}
+
+h1
+{
+font-family:'Lobster Two', cursive;
+margin-left:8%;
+font-size:medium;
+}
+
+h2, h3
+{
+font-family:'Lobster Two', cursive;
+margin-left:12%;
+font-size:medium;
+}
+
+p
+{
+margin-left:5%;
+margin-right:5%;
+}
+
+ul, ol
+{
+margin-left:5%;
+margin-right:2%;
+}
+
+#fb
+{
+visibility:hidden;
+}
+
+#fb img
+{
+visibility:hidden;
+}
+
+#bovenbalk
+{
+width:92%;
+height:22%;
+margin-left:auto;
+margin-right:auto;
+
+background-color:#FFD700;
+background: -ms-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -moz-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -webkit-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -o-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+
+margin-top:2%;
+}
+
+#bovenbalk_tekst
+{
+text-align:center;
+font-family:Great Vibes;
+color:#FFFFFF;
+font-size:260%;
+text-shadow: 2px 2px grey;
+margin-left:5%;
+padding-top:2%;
+}
+
+#titelkleiner
+{
+font-size:66%;
+}
+
+.margin
+{
+margin-left:5%;
+}
+
+.floatleft
+{
+float:left;
+margin-left:2%;
+}
+
+.small
+{
+font-size:small;
+}
+
+.border
+{
+border:3px double #7A7A7A;
+}
+
+.lessentabel
+{
+border:1px solid white;
+margin-left:5%;
+border-collapse:collapse;
+width:160%;
+font-size:small;
+}
+
+.lessentabel td
+{
+border:1px solid white;
+padding:1%;
+background-color:#2A0F4D;
+width:52%;
+vertical-align:top;
+font-size:small;
+}
+
+.lessentabel td h2
+{
+margin-left:0;
+text-align:center;
+font-size:medium;
+}
+
+.lessentabel2
+{
+border:1px solid white;
+margin-left:5%;
+border-collapse:collapse;
+width:100%;
+font-size:small;
+}
+
+.lessentabel2 td
+{
+border:1px solid white;
+padding:1%;
+background-color:#2A0F4D;
+vertical-align:top;
+width:52%;
+font-size:small;
+}
+
+.lessentabel2 td h2
+{
+margin-left:0;
+font-size:medium;
+}
+
+.video
+{
+width:48%;
+height:36%;
+margin-left:10%;
+}
+
+.Deva
+{
+font-family:'Lobster Two', cursive;
+font-size:small;
+float:left;
+margin-top:17%;
+}
+
+.pasfoto
+{
+width:42%;
+float:right;
+margin:2%;
+}
+
+.fotorechts
+{
+width:52%;
+float:right;
+margin:2%;
+}
+
+.fotolinks
+{
+width:52%;
+margin:2%;
+}
+
+.fotomidden
+{
+width:52%;
+margin:2%;
+margin-left:34%;
+}
+
+.aanbieding
+{
+font-size:1.2em;
+font-weight:bold;
+color:#A316DB;
+}
+
+#taal
+{
+text-align:center;
+padding:1%;
+border:2px solid grey;
+float:right;
+width:16%;
+}
+
+#taal a
+{
+text-decoration:none;
+color:white;
+}
+
+#taal:hover
+{
+background-color:#2A0F4D;
+}
+
+#redoute_quote
+{
+margin-left:5%;
+float:left;
+width:36%;
+font-style:italic;
+margin-right:2%;
+}
+
+#redoute_quote img
+{
+width:100%;
+margin:2%;
+}
+
+#form
+{
+margin-left:5%;
+}
+
+#deur
+{
+margin-left:5%;
+float:left;
+width:32%;
+}
+
+#galerij
+{
+margin-left:8%;
+}
+
+#galerij img
+{
+width:80%;
+height:30%;
+border:3px double #7A7A7A;
+}
+
+#galerij img:hover
+{
+opacity:0.7;
+border:3px double #7A7A7A;
+}
+
+#fotocontact
+{
+float:right;
+width:28%;
+border:1px solid white;
+margin-right:12%;
+}
+
+#contactklaar
+{
+color:white;
+margin-left:5%;
+text-decoration:none;
+padding:1%;
+border:2px solid white;
+}
+
+#adres
+{
+background-image: url("images/adresachtergrond.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width:52%;
+height:36%;
+margin-left:5%;
+padding:1%;
+font-weight:bold;
+font-size:1em;
+text-align:center;
+}
+
+#adres2
+{
+background-image: url("images/adresachtergrond.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width:52%;
+height:21%;
+padding:1%;
+font-weight:bold;
+font-size:1em;
+float:left;
+margin-top:11%;
+margin-left:2%;
+text-align:center;
+}
+
+#agenda_tabel
+{
+border:1px solid white;
+border-collapse:collapse;
+width:120%;
+font-size:small;
+}
+
+#agenda_tabel td
+{
+border:1px solid white;
+padding:2%;
+width:25%;
+font-size:small;
+}
+
+#agenda_tabel tr td
+{
+height:14%;
+font-size:small;
+}
+
+#contact
+{
+text-align:center;
+margin-left:40%;
+width:24%;
+border:1px solid white;
+padding:1%;
+}
+
+#contact a
+{
+font-size:large;
+text-decoration:none;
+color:white;
+}
+
+#contact a:hover
+{
+font-size:large;
+text-decoration:none;
+color:#F5D790;
+}
+
+#helpstrookje_18
+{
+height:1%;
+}
+
+#helpstrookje_42
+{
+height:24%;
+}
+
+#helpstrookje_68
+{
+height:12%;
+}
+
+#helpstrookje_82
+{
+height:38%;
+}
+
+#helpstrookje_822
+{
+height:0%;
+}
+
+#strookjeonderaan
+{
+text-align:right;
+width:100%;
+background-color:black;
+}
+
+#webdesigner
+{
+text-decoration:none;
+font-size:small;
+font-style:italic;
+color:white;
+padding:4px 0px 4px 0px;
+margin:4px 0px 4px 0px;
+}
+
+.designer
+{
+font-size:small;
+padding:4px 0px 4px 0px;
+margin:4px 0px 4px 0px;
+}
+}

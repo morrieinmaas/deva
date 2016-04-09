@@ -1,0 +1,472 @@
+* 
+{
+  margin:0;
+}
+
+html
+{
+height: 100%;
+}
+
+body
+{
+height: 100%;
+background-color:black;
+font-family:Verdana, sans-serif;
+color:white;
+margin-bottom:2%;
+margin-right:7%;
+}
+
+h1
+{
+font-family:'Lobster Two', cursive;
+margin-left:8%;
+}
+
+h2, h3
+{
+font-family:'Lobster Two', cursive;
+margin-left:12%;
+}
+
+p
+{
+margin-left:5%;
+margin-right:5%;
+}
+
+ul, ol
+{
+margin-left:5%;
+margin-right:2%;
+}
+
+#bovenbalk
+{
+width:72%;
+height:29%;
+margin-left:auto;
+margin-right:auto;
+
+background-color:#FFD700;
+background: -ms-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -moz-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -webkit-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: -o-linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+background: linear-gradient(left, #BF9CF7, #A316DB, #2A0F4D);
+
+margin-top:2%;
+}
+
+#bovenbalk_tekst
+{
+text-align:center;
+font-family:Great Vibes;
+color:#FFFFFF;
+font-size:520%;
+text-shadow: 2px 2px grey;
+margin-left:5%;
+padding-top:2%;
+}
+
+#titelkleiner
+{
+font-size:66%;
+}
+
+.margin
+{
+margin-left:5%;
+}
+
+.floatleft
+{
+float:left;
+margin-left:2%;
+}
+
+.small
+{
+font-size:small;
+}
+
+.border
+{
+border:3px double #7A7A7A;
+}
+
+.lessentabel
+{
+border:1px solid white;
+margin-left:5%;
+border-collapse:collapse;
+}
+
+.lessentabel td
+{
+border:1px solid white;
+padding:1%;
+background-color:#2A0F4D;
+width:33%;
+vertical-align:top;
+}
+
+.lessentabel td h2
+{
+margin-left:0;
+text-align:center;
+}
+
+.lessentabel2
+{
+border:1px solid white;
+margin-left:5%;
+border-collapse:collapse;
+width:100%;
+}
+
+.lessentabel2 td
+{
+border:1px solid white;
+padding:1%;
+background-color:#2A0F4D;
+vertical-align:top;
+}
+
+.lessentabel2 td h2
+{
+margin-left:0;
+}
+
+.prijzentabel
+{
+border:1px solid white;
+margin-left:5%;
+border-collapse:collapse;	
+}
+
+.prijzentabel td
+{
+padding:1%;
+width:17%;
+}
+
+.prijzentabel tr:first-child
+{
+background-color:#E3C171;	
+border-top:3px solid white;
+border-bottom:3px solid white;	
+}
+
+.prijzentabel td:first-child
+{
+background-color:#E3C171;
+border-right:3px solid white;
+border-left:3px solid white;	
+}
+
+.prijzentabel td:nth-child(2)
+{
+border:1px solid white;
+}
+
+.prijzentabel td:nth-child(3)
+{
+border:1px solid white;
+}
+
+.bank
+{
+margin-left:5%;
+border:1px solid white;
+}
+
+.video
+{
+width:48%;
+height:36%;
+margin-left:10%;
+}
+
+.Deva
+{
+font-family:'Lobster Two', cursive;
+font-size:x-large;
+float:left;
+margin-top:17%;
+}
+
+.pasfoto
+{
+width:22%;
+float:right;
+margin:2%;
+}
+
+.fotoagenda
+{
+width:42%;
+float:right;
+}
+
+.fotorechts
+{
+width:30%;
+float:right;
+margin:2%;
+}
+
+.fotolinks
+{
+width:30%;
+margin:2%;
+}
+
+.fotomidden
+{
+width:30%;
+margin:2%;
+margin-left:34%;
+}
+
+.aanbieding
+{
+font-size:1.2em;
+font-weight:bold;
+color:#A316DB;
+}
+
+#taal
+{
+text-align:center;
+padding:1%;
+border:2px solid grey;
+float:right;
+width:8%;
+}
+
+#taal a
+{
+text-decoration:none;
+color:white;
+}
+
+#taal:hover
+{
+background-color:#2A0F4D;
+}
+
+#fb
+{
+float:left;
+border:0;
+width:10%;
+}
+
+#fb img
+{
+width:100%;
+}
+
+#redoute_quote
+{
+margin-left:5%;
+float:left;
+width:28%;
+margin-right:2%;
+}
+
+#redoute_quote img
+{
+width:100%;
+}
+
+#form
+{
+margin-left:5%;
+}
+
+#deur
+{
+margin-left:5%;
+float:left;
+}
+
+#galerij
+{
+margin-left:8%;
+}
+
+#galerij img
+{
+width:80%;
+height:80%;
+border:3px double #7A7A7A;
+}
+
+#galerij img:hover
+{
+opacity:0.7;
+border:3px double #7A7A7A;
+}
+
+#fotocontact
+{
+float:right;
+width:28%;
+border:1px solid white;
+margin-right:12%;
+}
+
+#gesloten
+{
+margin-left:10%;
+}
+
+#contactklaar
+{
+color:white;
+margin-left:5%;
+text-decoration:none;
+padding:1%;
+border:2px solid white;
+}
+
+#adres
+{
+background-image: url("images/adresachtergrond.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width:24%;
+height:27%;
+margin-left:5%;
+padding:1%;
+font-weight:bold;
+font-size:1em;
+text-align:center;
+}
+
+#adres2
+{
+background-image: url("images/adresachtergrond.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width:24%;
+height:27%;
+padding:1%;
+font-weight:bold;
+font-size:1em;
+float:left;
+margin-top:11%;
+margin-left:2%;
+text-align:center;
+}
+
+#agenda_tabel
+{
+border:3px solid white;
+border-collapse:collapse;
+margin-left:5%;
+}
+
+#agenda_tabel td
+{
+padding:2%;
+border:1px solid white;
+}
+
+#agenda_tabel tr td
+{
+height:14%;
+}
+
+#agenda_tabel td:first-child
+{
+background-color:#505152;
+}
+
+#agenda_tabel tr td:hover
+{
+background-color:#505152;
+}
+
+#contact
+{
+text-align:center;
+margin-left:40%;
+width:16%;
+border:1px solid white;
+padding:1%;
+}
+
+#contact a
+{
+font-size:large;
+text-decoration:none;
+color:white;
+}
+
+#contact a:hover
+{
+font-size:large;
+text-decoration:none;
+color:#F5D790;
+}
+
+#helpstrookje_42
+{
+height:42%;
+}
+
+#helpstrookje_68
+{
+height:62%;
+}
+
+#helpstrookje_82
+{
+height:68%;
+}
+
+#helpstrookje_822
+{
+height:99%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -12px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 12px; 
+}
+
+#strookjeonderaan
+{
+text-align:right;
+width:100%;
+background-color:black;
+}
+
+#webdesigner
+{
+text-decoration:none;
+font-size:small;
+font-style:italic;
+color:white;
+padding:4px 0px 4px 0px;
+margin:4px 0px 4px 0px;
+}
+
+.designer
+{
+font-size:small;
+padding:4px 0px 4px 0px;
+margin:4px 0px 4px 0px;
+}
