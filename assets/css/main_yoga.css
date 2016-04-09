@@ -2353,7 +2353,7 @@ However, it has no effect on the mobile menu and dropdown menus work! */
 	top: 0;
 	width: 100%;
 	background: #fff;
-	background: #FFC5A8;
+	background: #780116;
 	height: 3em;
 	line-height: 3em;
 	box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -2410,7 +2410,7 @@ body {
 }
 
 #header nav > ul > li a:not(.button) {
-	color: #841F7C; /*DB7C26*/
+	color: #DB7C26;
 	display: inline-block;
 	text-decoration: none;
 	border: 0;
@@ -2440,7 +2440,7 @@ body {
 #header .button {
 	background-color: transparent;
 	box-shadow: inset 0 0 0 2px #999;
-	color: #FFC5A8;
+	color: #DB7C26;
 }
 
 #header input[type="submit"]:hover,
@@ -2516,7 +2516,7 @@ body {
 }
 
 .dropotron {
-	background: #FFC5A8;  /* colour of the dropdown background */
+	background: #780116;  /* colour of the dropdown background */
 	border-radius: 6px;
 	/* colour of the box circumference below */
 	box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.065), inset 0 -1px 0 0 #780116, inset 0 0 0 1px rgba(120,1,22, 0.5);
@@ -2536,8 +2536,8 @@ body {
 	-ms-transition: none;
 	transition: none;
 	border: 0;
-	border-top: solid 1px #841F7C; /* colour of the horizontal separation lines */
-	color: #841F7C;  /* colour of the text in the dropdown menu */
+	border-top: solid 1px #780116; /* colour of the horizontal separation lines */
+	color: #DB7C26;  /* colour of the text in the dropdown menu */
 	display: block;
 	padding: 0.15em 1em;
 	text-decoration: none;
@@ -3642,7 +3642,7 @@ body.is-touch .poptrox-popup .closer {
 	/* Basic */
 
 	body, input, textarea, select {
-		font-size: 13pt;
+		font-size: 14pt;
 	}
 
 	/* Header */
@@ -3660,7 +3660,7 @@ body.is-touch .poptrox-popup .closer {
 	/* Basic */
 
 	body, input, textarea, select {
-		font-size: 12pt;
+		font-size: 13pt;
 	}
 
 	/* Main */
@@ -3690,7 +3690,7 @@ body.is-touch .poptrox-popup .closer {
 	/* Basic */
 
 	body, input, textarea, select {
-		font-size: 11pt;
+		font-size: 13pt;
 	}
 
 	.container > .container {
@@ -3755,10 +3755,6 @@ body.is-touch .poptrox-popup .closer {
 
 	#header {
 		display: none;
-	}
-
-	body {
-		padding-top: 0em;
 	}
 
 	/* Off-Canvas Navigation */
@@ -4074,7 +4070,7 @@ body.is-touch .poptrox-popup .closer {
 		}
 
 		body {
-			padding-top: 0em;
+			padding-top: 2.5em;
 		}
 
 		#logo {
