@@ -3723,6 +3723,7 @@ body.is-touch .poptrox-popup .closer {
 
 /* Narrow */
 
+
 @media screen and (max-width: 1280px) {
 
 	/* Basic */
@@ -4035,7 +4036,7 @@ body.is-touch .poptrox-popup .closer {
 		/* Main */
 
 		.main.fullscreen {
-			height: auto !important;
+			height: 100%;/*auto !important;*/
 		}
 
 		.main.style1 {
