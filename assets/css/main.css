@@ -2288,9 +2288,9 @@ input[type="submit"].down,
 input[type="reset"].down,
 .button.down,
 button.down {
-	width: 5em;
-	height: 5em;
-	line-height: 4.5em;
+	width: 4.5em;
+	height: 4.5em;
+	line-height: 3.5em;
 	padding: 0;
 	background-image: url("../../assets/css/images/dark-arrow.svg");
 	background-position: center center;
@@ -2307,7 +2307,7 @@ button.down.anchored {
 	bottom: 0;
 	border-bottom: 0;
 	border-radius: 3em 3em 0 0;
-	height: 4.5em;
+	height: 3em;
 	margin-left: -2.5em;
 }
 
