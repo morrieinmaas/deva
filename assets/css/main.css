@@ -48,6 +48,10 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+.mobilehide {
+	display: block;
+}
+
 /* Box Model */
 
 *, *:before, *:after {
@@ -3766,6 +3770,10 @@ body.is-touch .poptrox-popup .closer {
 		display: none;
 	}
 
+	.mobilehide {
+		display: block;
+	}
+
 }
 
 /* Narrow */
@@ -3797,6 +3805,10 @@ body.is-touch .poptrox-popup .closer {
 		display: none;
 	}
 
+	.mobilehide {
+		display: block;
+	}
+
 }
 
 /* Narrower */
@@ -3819,6 +3831,10 @@ body.is-touch .poptrox-popup .closer {
 
 	.separator {
 		display: none;
+	}
+
+	.mobilehide {
+		display: block;
 	}
 
 	/* Main */
@@ -4067,6 +4083,10 @@ body.is-touch .poptrox-popup .closer {
 
 		.separator {
 			display: block;
+		}
+
+		.mobilehide {
+			display: none;
 		}
 
 		/* Box */
