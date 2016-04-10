@@ -2359,8 +2359,16 @@ However, it has no effect on the mobile menu and dropdown menus work! */
 	box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 }
 
-body {
-	padding-top: 3em;
+#header2 {
+	position: fixed;
+	z-index: 10000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: #fff;
+	height: 3em;
+	line-height: 3em;
+	box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 }
 
 #logo {
@@ -2410,7 +2418,7 @@ body {
 }
 
 #header nav > ul > li a:not(.button) {
-	color: #DB7C26;
+	color: #DB7C26; /* dad */
 	display: inline-block;
 	text-decoration: none;
 	border: 0;
@@ -2481,7 +2489,7 @@ body {
 	-webkit-animation: none;
 	-ms-animation: none;
 	animation: none;
-	background: none;
+	background: #780116; /* mum background of menu bar */
 	color: rgba(255, 255, 255, 0.75);
 	position: absolute;
 }
@@ -3645,6 +3653,10 @@ body.is-touch .poptrox-popup .closer {
 		font-size: 14pt;
 	}
 
+	body {
+		padding-top: 3em;
+	}
+
 	/* Header */
 
 	.dropotron.level-0 {
@@ -3675,6 +3687,10 @@ body.is-touch .poptrox-popup .closer {
 
 	.main.style2.inactive.left .content {
 		left: -50%;
+	}
+
+	body {
+		padding-top: 3em;
 	}
 
 	/* Footer */
@@ -3981,7 +3997,7 @@ body{
 		/* Main */
 
 		.main.fullscreen {
-			height: 100%;/* auto !important;*/
+			height: 100%; /*auto !important;*/
 		}
 
 		.main.style1 {
