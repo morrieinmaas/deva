@@ -3697,7 +3697,7 @@ body.is-touch .poptrox-popup .closer {
 
 	#footer .menu {
 		position: relative;
-		right: 0;
+		left: inherit;
 		top: 0;
 		height: auto;
 		line-height: inherit;
@@ -3771,7 +3771,7 @@ body{
 
 	#footer .menu {
 		position: relative;
-		right: 0;
+		left: inherit;
 		top: 0;
 		height: auto;
 		line-height: inherit;
