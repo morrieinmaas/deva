@@ -4066,7 +4066,7 @@ body.is-touch .poptrox-popup .closer {
 		}
 
 		.separator {
-			display: none;
+			display: block;
 		}
 
 		/* Box */
