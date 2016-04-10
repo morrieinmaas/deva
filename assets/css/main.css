@@ -2299,6 +2299,23 @@ button.down {
 	overflow: hidden;
 }
 
+input[type="button"].down2,
+input[type="submit"].down2,
+input[type="reset"].down2,
+.button.down2,
+button.down2 {
+	width: 4.5em;
+	height: 4.5em;
+	line-height: 3.5em;
+	bottom: 0;
+	top: 42%;
+	background-image: url("../../assets/css/images/dark-arrow.svg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-indent: -10em;
+	overflow: hidden;
+}
+
 input[type="button"].down.anchored,
 input[type="submit"].down.anchored,
 input[type="reset"].down.anchored,
@@ -2643,7 +2660,7 @@ body {
 /* One */
 
 #one {
-	background: url("../../assets/css/images/overlay.png"), url("../../images2/fulls/deva/laura01__LMO2808_20150816.jpg");
+	background: url("../../assets/css/images/overlay.png"), url("../../images2/fulls/deva/laura01__LMO3130_20150816.jpg");
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: center center, center center;
@@ -2660,6 +2677,7 @@ body {
 
 #two {
 	background: url("../../assets/css/images/overlay.png"), url("../../images2/fulls/deva/laura01__LMO3130_20150816.jpg");
+	/*background: url("../../assets/css/images/overlay.png"), url("../../images2/fulls/deva/hips.jpg");*/
 	background-size: 256px 256px, cover;
 	background-attachment: fixed, fixed;
 	background-position: center center, center center;
