@@ -3319,7 +3319,7 @@ body.is-loading:after {
 
 #footer {
 	position: relative;
-	height: 23em;
+	height: 6em;
 	line-height: 5em;
 	margin: 0;
 	background: #39454b;
@@ -3340,10 +3340,10 @@ body.is-loading:after {
 
 #footer .actions {
 	position: absolute;
-	left: 1em;
+	left: 37.5%;
 	top: 0.25em;
-	height: 5em;
-	line-height: 5em;
+	height: 3em;
+	line-height: 3em;
 	margin: 0;
 }
 
@@ -3358,10 +3358,10 @@ body.is-loading:after {
 
 #footer .menu {
 	position: absolute;
-	right: 2em;
-	top: 0;
-	height: 5em;
-	line-height: 5em;
+	left: 1em;
+	top: 3.25em;
+	height: 3em;
+	line-height: 2em;
 	margin: 0;
 }
 
@@ -3675,6 +3675,32 @@ body.is-touch .poptrox-popup .closer {
 
 	.main.style2.inactive.left .content {
 		left: -50%;
+	}
+
+	/* Footer */
+
+	#footer {
+		height: auto;
+		line-height: inherit;
+		text-align: center;
+		padding: 2em 1em 2em 1em;
+	}
+
+	#footer .actions {
+		position: relative;
+		left: 0;
+		top: 0;
+		height: auto;
+		line-height: inherit;
+		margin: 0 0 1em 0;
+	}
+
+	#footer .menu {
+		position: relative;
+		right: 0;
+		top: 0;
+		height: auto;
+		line-height: inherit;
 	}
 
 }
