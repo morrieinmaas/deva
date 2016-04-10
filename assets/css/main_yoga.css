@@ -2418,7 +2418,7 @@ However, it has no effect on the mobile menu and dropdown menus work! */
 }
 
 #header nav > ul > li a:not(.button) {
-	color: #DB7C26; /* dad */
+	color: #63345d; /* dad */
 	display: inline-block;
 	text-decoration: none;
 	border: 0;
@@ -2489,7 +2489,7 @@ However, it has no effect on the mobile menu and dropdown menus work! */
 	-webkit-animation: none;
 	-ms-animation: none;
 	animation: none;
-	background: #780116; /* mum background of menu bar */
+	background: #f2b8d0; /* mum background of menu bar */
 	color: rgba(255, 255, 255, 0.75);
 	position: absolute;
 }
