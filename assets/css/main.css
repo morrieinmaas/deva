@@ -4242,8 +4242,8 @@ body.is-touch .poptrox-popup .closer {
 		}
 
 		#footer .menu li:first-child {
-			padding-top: 0;
-		}
+		  padding-top: 0;
+	  }
 
 		#footer .menu li a {
 			line-height: 1.5em;
