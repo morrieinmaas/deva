@@ -48,6 +48,10 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+.mobilehide {
+	display: block;
+}
+
 /* Box Model */
 
 *, *:before, *:after {
@@ -3663,6 +3667,14 @@ body.is-touch .poptrox-popup .closer {
 		font-size: 1em;
 	}
 
+	.separator {
+		display: none;
+	}
+
+	.mobilehide {
+		display: block;
+	}
+
 }
 
 /* Narrow */
@@ -3691,6 +3703,14 @@ body.is-touch .poptrox-popup .closer {
 
 	body {
 		padding-top: 3em;
+	}
+
+	.separator {
+		display: none;
+	}
+
+	.mobilehide {
+		display: block;
 	}
 
 	/* Footer */
@@ -3766,6 +3786,14 @@ body{
     header.major {
         padding: 0 4em;
     }
+
+	.separator {
+		display: none;
+	}
+
+	.mobilehide {
+		display: block;
+	}
 
 	/* Footer */
 
@@ -3981,6 +4009,14 @@ body{
 		h2 {
 			font-size: 1.5em;
 			letter-spacing: -1px;
+		}
+
+		.separator {
+			display: block;
+		}
+
+		.mobilehide {
+			display: none;
 		}
 
 		/* Box */
