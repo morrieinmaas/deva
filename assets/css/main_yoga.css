@@ -2629,6 +2629,15 @@ However, it has no effect on the mobile menu and dropdown menus work! */
 	background-position: center center, center center;
 }
 
+/* Four */
+
+#four {
+	background: url("../../assets/css/images/overlay.png"), url("../../images2/fulls/deva/jule2.jpg");
+	background-size: 256px 256px, cover;
+	background-attachment: fixed, fixed;
+	background-position: center center, center center;
+}
+
 /* Work */
 
 #work .row.images .image {
